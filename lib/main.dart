@@ -19,7 +19,7 @@ class myApp extends StatelessWidget {
  initialRoute:"Home",
       routes: {
         "Home": (context) => HomePage(),
-        "second Page": (context) => SecondPage(data: '',),
+        // "second Page": (context) => SecondPage(data: 'Hello Shimon',),
       },
 
     onGenerateRoute: (settings){
